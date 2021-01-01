@@ -126,7 +126,7 @@ header {
     font-style: normal;
     margin-bottom: 0; }
   .contenido .slogan__index {
-    background-color: rgba(128, 128, 128, 0.7);
+    background-color: rgba(0, 0, 255, 0.7);
     background-size: cover;
     font-size: 250%;
     position: absolute;
@@ -425,7 +425,7 @@ header {
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    grid-template-areas: "titulo titulo" "form map";
+    grid-template-areas: "titulo titulo" "form map";
     background-color: white;
     padding: 2%; }
   .mainContacto #contactoTitulo {
@@ -605,7 +605,7 @@ header {
         grid-row-gap: 10px;*/
         justify-content: space-between;
         align-content: space-between;
-        grid-template-areas: "titulo titulo titulo titulo titulo" "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
+        grid-template-areas: "titulo titulo titulo titulo titulo" "producto producto espacio espacio personaje" "producto producto grafica animacion modelado"; } }
     @media only screen and (max-width: 1200px) {
       #bodyProyecto .mainProyectos .categorias {
         display: grid;
@@ -616,7 +616,7 @@ header {
         grid-row-gap: 10px;*/
         justify-content: space-between;
         align-content: space-between;
-        grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
+        grid-template-areas: "titulo titulo" "producto espacio" "grafica personaje" "modelado animacion" "profoot profoot"; } }
     @media only screen and (max-width: 600px) {
       #bodyProyecto .mainProyectos .categorias {
         display: grid;
@@ -627,7 +627,7 @@ header {
         grid-row-gap: 10px;*/
         justify-content: space-between;
         align-content: space-between;
-        grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
+        grid-template-areas: "titulo titulo" "producto producto" "espacio espacio" "modelado modelado" "personaje personaje" "grafica grafica" "animacion animacion"; } }
     #bodyProyecto .mainProyectos .categorias .info, #bodyProyecto .mainProyectos .categorias .mainServicios .info__producto, .mainServicios #bodyProyecto .mainProyectos .categorias .info__producto, #bodyProyecto .mainProyectos .categorias .mainServicios .info__espacio, .mainServicios #bodyProyecto .mainProyectos .categorias .info__espacio, #bodyProyecto .mainProyectos .categorias .mainServicios .info__animacion, .mainServicios #bodyProyecto .mainProyectos .categorias .info__animacion, #bodyProyecto .mainProyectos .categorias .mainServicios .info__personaje, .mainServicios #bodyProyecto .mainProyectos .categorias .info__personaje, #bodyProyecto .mainProyectos .categorias .mainServicios .info__presentacion, .mainServicios #bodyProyecto .mainProyectos .categorias .info__presentacion, #bodyProyecto .mainProyectos .categorias .mainServicios .info__modelado, .mainServicios #bodyProyecto .mainProyectos .categorias .info__modelado {
       background-color: rgba(0, 0, 0, 0.7);
       background-size: cover;
