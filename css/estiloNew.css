@@ -28,7 +28,7 @@ header {
   header .navbar-collapse {
     transform: translate(50%, 1px); }
   header .header__nav {
-    transform: translate(-5%, 1px); }
+    transform: translate(-5%, -8%); }
   header a {
     text-decoration: none;
     color: #424241;
