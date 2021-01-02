@@ -135,7 +135,7 @@ header {
     }
 */
 .contenido {
-    background: #444444;
+    background: white;
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 200;
@@ -148,7 +148,7 @@ header {
     @extend .slogan;
     
     
-    background-color: rgba($color:blue, $alpha: .7);
+    background-color: rgba($color: grey, $alpha: .7);
     background-size: cover;
     font-size: 250%;
     
