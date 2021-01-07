@@ -33,7 +33,7 @@ header {
         transform: translate(50%, 1px);
     }
     .header__nav {
-        transform: translate(-5%, -15%);
+        transform: translate(-5%, -22%);
     }
     a {
         text-decoration: none;
@@ -316,6 +316,10 @@ header {
 
             .carousel-control-next-icon{
                 color: #444444;
+
+            .img__slider{
+                height: 30vh;
+            }
             }
         }
     
@@ -695,7 +699,7 @@ header {
     
     .card-img-top{
         border-radius: 5%;
-        width: 90%;
+        height: 50vh;
         padding: 0%;
     }
 

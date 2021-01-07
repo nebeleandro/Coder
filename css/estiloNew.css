@@ -28,7 +28,7 @@ header {
   header .navbar-collapse {
     transform: translate(50%, 1px); }
   header .header__nav {
-    transform: translate(-5%, -15%); }
+    transform: translate(-5%, -22%); }
   header a {
     text-decoration: none;
     color: #424241;
@@ -258,6 +258,8 @@ header {
       transform: translate(25%, 0%); }
       .contenido .contenido__proyectos .slider__imagenes .carousel-control-next-icon {
         color: #444444; }
+        .contenido .contenido__proyectos .slider__imagenes .carousel-control-next-icon .img__slider {
+          height: 30vh; }
   .contenido .contenido__quienes {
     background: #F9F6F2;
     padding: 50px; }
@@ -512,7 +514,7 @@ header {
       padding: 2%; }
       .mainServicios .card .card__contenido .card-img-top {
         border-radius: 5%;
-        width: 90%;
+        height: 50vh;
         padding: 0%; }
       .mainServicios .card .card__contenido .card-text {
         width: 90%;
