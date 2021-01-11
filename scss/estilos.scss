@@ -1,10 +1,7 @@
 
 .slogan{
-/*	padding-top: 100px;*/
-	
 	font-weight: bolder;
-	color: black;
-	
+	color: black;	
     font-style: italic;
     z-index: 9999;
 }
@@ -63,77 +60,8 @@ header {
         transform: translate(0%, 30%);
         size: 250%;
         background-color: #F9F6F2;
-    }/*
-    .navbar-nav{
-        transform: translate(-5%, 0%);
-    }*/
-}/*
-header {
-
-    align-items: flex-start;
-    justify-content: space-between;
-    
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    z-index: 99999;
-    background-color: #d8d8d8;
-    position: fixed;
-    display: inline-flex;
-   
-
-        .header__isotipo {
-            transform: translate(0%, -25%);
-            width: 35vh;
-        }
-
-        .header__nav{
-            transform: translate(-5%, 40%);
-        }
-        a {
-            text-decoration: none;
-            color: #424241;
-            border-radius: 5px;
-            background-color: #D8D8D8;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 15px;
-            text-align: center;
-            vertical-align: middle;
-            animation-duration: 500ms;
-            transform: translate(0%, 30%);
-            }
-
-        a:hover {
-                background-color: white;
-                color: #D8D8D8;
-            }
-
-            &__navbar {
-                margin-top: 50%;
-            }
-        
-
-      /*  .navbar-toggler {
-            transform: translate(-40%, -40%);
-          
-        }*/
-        
-     
-        
-     
-/*
-        .navbar__center{
-            text-align: center;
-        }
-*//*
-       #navbarNavAltMarkup {
-            transform: translate(0%, -32%);
-            size: 250%;
-            background-color: #D8D8D8;
-          
-        }
     }
-*/
+}
 .contenido {
     background: #F9F6F2;
     p {
@@ -192,7 +120,7 @@ header {
         background-position: center;
         background-attachment: contain;
         height:  1000px;
-        /*background-size: cover;*/
+        
     .sloganPrincipal {
             padding-top: 100px;
             text-align: center;
@@ -281,35 +209,12 @@ header {
             font-style: normal;
             padding: 50px;
         }
-/*
-        .contenido__proyectos__sliderFotos {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-items: center;
-            justify-content: space-around;
-            border: solid 30px #D8D8D8;
-            background-color: #D8D8D8;
-            border-radius: 15px;
-            margin: 30px;
-        }
-
-      .contenido__proyectos__sliderFotos__img {
-            transition-duration: 1s;
-            border-radius: 10px;
-        }
-
-        .contenido__proyectos__sliderFotos__img:hover {
-            transform: scale(1.5);
-        }
-*/
         
         .slider {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-           /* transform: translate(150%, 0%);*/
         }
         .slider__imagenes {
             transform: translate(25%, 0%);
@@ -520,15 +425,12 @@ header {
 
     .slogan__contacto{
         @extend .slogan;
-       /* transform: translate(-0%, 450%);*/
         font-size: 250%;
         background-color: rgba($color: grey, $alpha: .7);
-        position: absolute;
-        
+        position: absolute;        
         top:50%;
         width: 100%;
         text-align: center;
-       
         width: fit-content;
         color: white;
         margin-left: 2%;
@@ -601,13 +503,7 @@ header {
     }
  }
 
-    
- /*   iframe{
-        
-        padding: 10px;
-        width:800px;
-        height: 200px;
-    }*/
+
     .robot{
         color: red;
         font-family: 'Roboto Condensed', sans-serif;
@@ -654,7 +550,6 @@ header {
 
     .slogan__servicios{
         @extend .slogan;
-       /* transform: translate(0%, 700%);*/
         background-color: rgba($color: grey, $alpha: .7);
         background-size: cover;
         font-size: 250%;
@@ -730,8 +625,6 @@ header {
 
 .info__producto{
     @extend .info;
-   /* transform: translate(0px, -270px);
-    */
 }
 .portada{
     transform: translate(0%, -11%);
@@ -741,30 +634,18 @@ header {
 
 .info__espacio{
     @extend .info;
-    /*transform: translate(-30px, -150px);
-    color: white;
-    */
-
 }
 
 .info__animacion{
     @extend .info;
-   /* transform: translate(0px, -250px);
-    */
-   
 }
 
 .info__personaje{
     @extend .info;
-  /*  transform: translate(0px, -310px);
-    */
 }
 
 .info__presentacion{
     @extend .info;
-   /* transform: translate(0px, -170px);
-    color: white;
-   */
 }
 
 .info__modelado{
@@ -773,35 +654,7 @@ header {
 }
 }
 #bodyProyecto{
-/*
-    .header{ 
-        .header__isotipo {
-        transform: translate(5%, -20%);
-        height: 200%;
-        width: 20%;
-    }
 
-    
-
-
-    .navbar-collapse{ 
-        transform: translate(-10%, 0%);
-    }
-
-    a {
-        text-decoration: none;
-        color: #424241;
-        border-radius: 5px;
-        background-color: #D8D8D8;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-        text-align: center;
-        vertical-align: middle;
-        animation-duration: 500ms;
-        transform: translate(-15%, 30%);
-        }
-        
-    }*/
 .mainProyectos {
 
     
@@ -818,16 +671,10 @@ header {
     .categorias {
         @media only screen and (min-width: 1200px){
         display: grid;
-        
-    
         height: auto;
-    
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(2, 1fr);
-       /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
         justify-content: space-between;
-    
         align-content: space-between;
         grid-template-areas:    		
                 "producto producto espacio espacio personaje"
@@ -837,16 +684,10 @@ header {
 
     @media only screen and (max-width: 1200px){
         display: grid;
-        
-    
         height: auto;
-    
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-       /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
         justify-content: space-between;
-    
         align-content: space-between;
         grid-template-areas:    		
                 "producto espacio"
@@ -860,13 +701,9 @@ header {
         
     
         height: 70vh;
-    
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-       /* grid-column-gap: 10px;
-        grid-row-gap: 10px;*/
         justify-content: space-between;
-    
         align-content: space-between;
         grid-template-areas:    		
                 "producto producto"
@@ -880,15 +717,15 @@ header {
 
     .info{
         background-color: rgba($color:black, $alpha: .7);
-    background-size: cover;
-    font-size: 100%;
-    width: unset;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-right: 1%;
-    padding-left: 1%;
-    color: white;
-    border-radius: 5%;
+        background-size: cover;
+        font-size: 100%;
+        width: unset;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-right: 1%;
+        padding-left: 1%;
+        color: white;
+        border-radius: 5%;
     }
 }
     
